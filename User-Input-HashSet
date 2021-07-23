@@ -12,6 +12,7 @@ public class Main
         HashSet<Integer>set=new HashSet<Integer>();
         System.out.print("Enter the length of the set: ");
         int length=in.nextInt();
+        System.out.println("Enter the elements: ");
         for(int i=0;i<length;i++)
         {
             set.add(in.nextInt());
